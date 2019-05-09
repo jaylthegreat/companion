@@ -22,4 +22,4 @@ echo 'extracting archive: ' $1
 unzip -q $1 -d $HOME
 
 echo 'running post-sideload.sh'
-$HOME/companion/scripts/post-sideload.sh
+sh $HOME/companion/scripts/post-sideload.sh
